@@ -1,5 +1,5 @@
 version: 1.0
-name: wordpress-ha-apb
+name: next-apb
 description: High Availability Wordpress APB
 bindable: True
 async: optional
@@ -7,7 +7,7 @@ metadata:
   documentationUrl: https://wordpress.org/
   longDescription: An apb that deploys High Availability Wordpress
   dependencies: ['quay.io/coreos/etcd:latest', 'docker.io/perconalab/percona-xtradb-cluster:5.6', 'wordpress']
-  displayName: Wordpress-HA (APB)
+  displayName: Next (APB)
   console.openshift.io/iconClass: icon-wordpress
   providerDisplayName: "Red Hat, Inc."
 plans:
